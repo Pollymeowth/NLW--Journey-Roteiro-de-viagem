@@ -1,2 +1,32 @@
-<h1>Atividades</h1>
-<section></section>
+<script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/dayjs@1/locale/pt-br.js"></script>
+<script>dayjs.locale('pt-br')</script>
+
+<form onsubmit="SaveTask(event)">
+  <div>
+    <input 
+      type="text"
+      placeholder="Qual a atividade?"
+      name="event"
+      required
+    >  
+  </div>
+    
+  <div>
+    <select name="day">
+      <option value="2024-03-01">01 de março</option>
+    </select>
+  </div>
+ 
+  <div>
+    <select name="hour">
+      <option value="10:30">10:30</option>
+    </select>
+  </div>
+  <button>Salvar</button>
+</form>
+<main>
+  <h1>Atividades</h1>
+  <section></section>
+</main>
+

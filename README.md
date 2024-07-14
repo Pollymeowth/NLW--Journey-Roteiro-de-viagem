@@ -1,4 +1,4 @@
-# NLW Journey|
+# | NLW Journey
 
 ### Este projeto foi feito em um dos eventos da rocketseat. Um evento para desenvolvedores de programação que querem aprimorar ou começar sua carreira dev.
 #### - Aqui está o projeto: https://www.figma.com/community/file/1392277205162897872
